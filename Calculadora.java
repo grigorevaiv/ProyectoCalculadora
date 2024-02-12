@@ -15,6 +15,9 @@ public class Calculadora {
             case "suma":
                 resultado = num1 + num2;
                 break;
+            case "resta":
+                resultado = num1 - num2;
+                break;
             default:
                 System.out.println("Operación no válida");
                 break;
@@ -27,6 +30,10 @@ public class Calculadora {
 
     public void suma() {
         resultado = num1 + num2;
+    }
+
+    public void resta() {
+        resultado = num1 - num2;
     }
     
 }
