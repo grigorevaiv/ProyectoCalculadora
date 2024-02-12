@@ -15,6 +15,12 @@ public class Calculadora {
             case "suma":
                 resultado = num1 + num2;
                 break;
+            case "multiplicar":
+                resultado = num1 * num2;
+                break;
+            case "dividir":
+                resultado = num1 / num2;
+                break;
             default:
                 System.out.println("Operación no válida");
                 break;
@@ -33,4 +39,7 @@ public class Calculadora {
         resultado = num1 * num2;
     }
     
+    public void dividir() {
+        resultado = num1 / num2;
+    }
 }
