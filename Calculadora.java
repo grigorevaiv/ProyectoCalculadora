@@ -28,5 +28,9 @@ public class Calculadora {
     public void suma() {
         resultado = num1 + num2;
     }
+
+    public void multiplicar() {
+        resultado = num1 * num2;
+    }
     
 }
